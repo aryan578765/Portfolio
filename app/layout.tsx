@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aryan Patel - AI/ML Engineer | Python Specialist",
+  title: "Aryan Patel",
   description: "Final-year IT student specializing in machine learning and predictive analytics. 77%+ recall healthcare models, live deployments. Seeking Summer 2025 AI/ML internships.",
 };
 
