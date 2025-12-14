@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { Card } from "@/components/ui/card";
 import { personalInfo } from "@/lib/data";
+import Image from "next/image";
 
 export function About() {
     return (
@@ -19,9 +20,13 @@ export function About() {
                 >
                     <div className="aspect-square rounded-2xl overflow-hidden border border-border bg-surface relative group">
                         {/* Placeholder for Headshot */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-surface to-background flex items-center justify-center text-text-secondary">
-                            <span className="text-6xl font-bold opacity-10">AP</span>
-                        </div>
+                        <Image
+                            src="/Cream Beige boho Background Instagram Post.png"
+                            alt="Aryan Patel"
+                            fill
+                            className="object-cover"
+                            priority
+                        />
                         {/* Decorative element */}
                         <div className="absolute -inset-4 border border-primary/20 rounded-2xl -z-10 group-hover:scale-105 transition-transform duration-500" />
                     </div>
